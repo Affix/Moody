@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631AAEC214EE892A002ACD3E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631AAEC114EE892A002ACD3E /* Cocoa.framework */; };
+		631AAECC14EE892A002ACD3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 631AAECA14EE892A002ACD3E /* InfoPlist.strings */; };
+		631AAECE14EE892A002ACD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631AAECD14EE892A002ACD3E /* main.m */; };
+		631AAED214EE892A002ACD3E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 631AAED014EE892A002ACD3E /* Credits.rtf */; };
+		631AAED514EE892A002ACD3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631AAED414EE892A002ACD3E /* AppDelegate.m */; };
+		631AAED814EE892A002ACD3E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 631AAED614EE892A002ACD3E /* MainMenu.xib */; };
+		631AAEE614EE92A1002ACD3E /* menu_alt_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 631AAEE414EE92A1002ACD3E /* menu_alt_icon.png */; };
+		631AAEE714EE92A1002ACD3E /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 631AAEE514EE92A1002ACD3E /* menu_icon.png */; };
+		632EAFE714EEB38400CA7143 /* skype_oldmood.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 632EAFE514EEB38400CA7143 /* skype_oldmood.applescript */; };
+		632EAFE814EEB38400CA7143 /* spotify_currentsong.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 632EAFE614EEB38400CA7143 /* spotify_currentsong.applescript */; };
+		632EAFE914EEBCCC00CA7143 /* skype_oldmood.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 632EAFE514EEB38400CA7143 /* skype_oldmood.applescript */; };
+		632EAFEA14EEBCCC00CA7143 /* spotify_currentsong.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 632EAFE614EEB38400CA7143 /* spotify_currentsong.applescript */; };
+		63CD0F3514F001020049390B /* MoodyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CD0F3414F001020049390B /* MoodyController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		631AAEBD14EE892A002ACD3E /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631AAEC114EE892A002ACD3E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		631AAEC414EE892A002ACD3E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		631AAEC514EE892A002ACD3E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		631AAEC614EE892A002ACD3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		631AAEC914EE892A002ACD3E /* Moody-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moody-Info.plist"; sourceTree = "<group>"; };
+		631AAECB14EE892A002ACD3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		631AAECD14EE892A002ACD3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		631AAECF14EE892A002ACD3E /* Moody-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moody-Prefix.pch"; sourceTree = "<group>"; };
+		631AAED114EE892A002ACD3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		631AAED314EE892A002ACD3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		631AAED414EE892A002ACD3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		631AAED714EE892A002ACD3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		631AAEE414EE92A1002ACD3E /* menu_alt_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_alt_icon.png; sourceTree = "<group>"; };
+		631AAEE514EE92A1002ACD3E /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
+		632EAFE514EEB38400CA7143 /* skype_oldmood.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = skype_oldmood.applescript; sourceTree = "<group>"; };
+		632EAFE614EEB38400CA7143 /* spotify_currentsong.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = spotify_currentsong.applescript; sourceTree = "<group>"; };
+		63CD0F3314F001020049390B /* MoodyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodyController.h; sourceTree = "<group>"; };
+		63CD0F3414F001020049390B /* MoodyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodyController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631AAEBA14EE892A002ACD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631AAEC214EE892A002ACD3E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631AAEB214EE892A002ACD3E = {
+			isa = PBXGroup;
+			children = (
+				631AAEC714EE892A002ACD3E /* Moody */,
+				631AAEC014EE892A002ACD3E /* Frameworks */,
+				631AAEBE14EE892A002ACD3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631AAEBE14EE892A002ACD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631AAEBD14EE892A002ACD3E /* Moody.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631AAEC014EE892A002ACD3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				631AAEC114EE892A002ACD3E /* Cocoa.framework */,
+				631AAEC314EE892A002ACD3E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631AAEC314EE892A002ACD3E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				631AAEC414EE892A002ACD3E /* AppKit.framework */,
+				631AAEC514EE892A002ACD3E /* CoreData.framework */,
+				631AAEC614EE892A002ACD3E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		631AAEC714EE892A002ACD3E /* Moody */ = {
+			isa = PBXGroup;
+			children = (
+				631AAED314EE892A002ACD3E /* AppDelegate.h */,
+				631AAED414EE892A002ACD3E /* AppDelegate.m */,
+				63CD0F3314F001020049390B /* MoodyController.h */,
+				63CD0F3414F001020049390B /* MoodyController.m */,
+				631AAED614EE892A002ACD3E /* MainMenu.xib */,
+				631AAEC814EE892A002ACD3E /* Supporting Files */,
+			);
+			path = Moody;
+			sourceTree = "<group>";
+		};
+		631AAEC814EE892A002ACD3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				632EAFE414EEB37600CA7143 /* applescript */,
+				631AAEE414EE92A1002ACD3E /* menu_alt_icon.png */,
+				631AAEE514EE92A1002ACD3E /* menu_icon.png */,
+				631AAEC914EE892A002ACD3E /* Moody-Info.plist */,
+				631AAECA14EE892A002ACD3E /* InfoPlist.strings */,
+				631AAECD14EE892A002ACD3E /* main.m */,
+				631AAECF14EE892A002ACD3E /* Moody-Prefix.pch */,
+				631AAED014EE892A002ACD3E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		632EAFE414EEB37600CA7143 /* applescript */ = {
+			isa = PBXGroup;
+			children = (
+				632EAFE514EEB38400CA7143 /* skype_oldmood.applescript */,
+				632EAFE614EEB38400CA7143 /* spotify_currentsong.applescript */,
+			);
+			name = applescript;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631AAEBC14EE892A002ACD3E /* Moody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631AAEDB14EE892A002ACD3E /* Build configuration list for PBXNativeTarget "Moody" */;
+			buildPhases = (
+				631AAEB914EE892A002ACD3E /* Sources */,
+				631AAEBA14EE892A002ACD3E /* Frameworks */,
+				631AAEBB14EE892A002ACD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moody;
+			productName = Moody;
+			productReference = 631AAEBD14EE892A002ACD3E /* Moody.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631AAEB414EE892A002ACD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "CHIP Xonio Online GmbH";
+			};
+			buildConfigurationList = 631AAEB714EE892A002ACD3E /* Build configuration list for PBXProject "Moody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 631AAEB214EE892A002ACD3E;
+			productRefGroup = 631AAEBE14EE892A002ACD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631AAEBC14EE892A002ACD3E /* Moody */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631AAEBB14EE892A002ACD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632EAFE914EEBCCC00CA7143 /* skype_oldmood.applescript in Resources */,
+				632EAFEA14EEBCCC00CA7143 /* spotify_currentsong.applescript in Resources */,
+				631AAECC14EE892A002ACD3E /* InfoPlist.strings in Resources */,
+				631AAED214EE892A002ACD3E /* Credits.rtf in Resources */,
+				631AAED814EE892A002ACD3E /* MainMenu.xib in Resources */,
+				631AAEE614EE92A1002ACD3E /* menu_alt_icon.png in Resources */,
+				631AAEE714EE92A1002ACD3E /* menu_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631AAEB914EE892A002ACD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631AAECE14EE892A002ACD3E /* main.m in Sources */,
+				631AAED514EE892A002ACD3E /* AppDelegate.m in Sources */,
+				632EAFE714EEB38400CA7143 /* skype_oldmood.applescript in Sources */,
+				632EAFE814EEB38400CA7143 /* spotify_currentsong.applescript in Sources */,
+				63CD0F3514F001020049390B /* MoodyController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		631AAECA14EE892A002ACD3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631AAECB14EE892A002ACD3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		631AAED014EE892A002ACD3E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631AAED114EE892A002ACD3E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		631AAED614EE892A002ACD3E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631AAED714EE892A002ACD3E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		631AAED914EE892A002ACD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		631AAEDA14EE892A002ACD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		631AAEDC14EE892A002ACD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moody/Moody-Prefix.pch";
+				INFOPLIST_FILE = "Moody/Moody-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		631AAEDD14EE892A002ACD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moody/Moody-Prefix.pch";
+				INFOPLIST_FILE = "Moody/Moody-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631AAEB714EE892A002ACD3E /* Build configuration list for PBXProject "Moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631AAED914EE892A002ACD3E /* Debug */,
+				631AAEDA14EE892A002ACD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631AAEDB14EE892A002ACD3E /* Build configuration list for PBXNativeTarget "Moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631AAEDC14EE892A002ACD3E /* Debug */,
+				631AAEDD14EE892A002ACD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631AAEB414EE892A002ACD3E /* Project object */;
+}

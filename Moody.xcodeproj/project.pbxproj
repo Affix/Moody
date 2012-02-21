@@ -155,7 +155,7 @@
 		631AAEB414EE892A002ACD3E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "CHIP Xonio Online GmbH";
 			};
 			buildConfigurationList = 631AAEB714EE892A002ACD3E /* Build configuration list for PBXProject "Moody" */;

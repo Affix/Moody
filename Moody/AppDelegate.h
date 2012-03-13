@@ -19,6 +19,7 @@
 @property (assign) IBOutlet NSMenu *menu;
 @property (retain) NSString *oldSkypeStatus;
 @property (retain) NSString *currentSong;
+@property (weak) IBOutlet NSMenuItem *currentsongItem;
 @property (weak) IBOutlet NSMenuItem *pollingItem;
 @property (unsafe_unretained) IBOutlet NSWindow *prefWindow;
 

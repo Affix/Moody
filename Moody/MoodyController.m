@@ -12,6 +12,11 @@
 - (void)setPollingInterval:(int)interval {
     NSLog(@"INterval: %i", interval);
 }
+
+/*
+ * Executes the specific applescript file
+ */
+
 - (NSString*)executeApplescriptfile:(NSString *)scriptName {
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *scriptPath = [bundle pathForResource:scriptName ofType:@"applescript"];
@@ -21,16 +26,30 @@
     return result;
 }
 
-- (void)executeApplescript:(NSString *)script {    
+/*
+ * As the name says, executes applescript and returns the result
+ */
+
+- (NSString *)executeApplescript:(NSString *)script {    
     NSAppleScript *applescript = [[NSAppleScript alloc] initWithSource:script];
-    [applescript executeAndReturnError:nil];
+    NSString *result = [[applescript executeAndReturnError:nil] stringValue];
+    return result;
+}
+
+- (bool)isRunning:(NSString *)appname {
+    NSString *script = [NSString stringWithFormat:@"tell application \"System Events\" to (name of processes) contains \"%@\"", appname];
+    NSString *result = [self executeApplescript:script];
+    return [result boolValue];
 }
 
 - (void)setSkypeMood:(NSString *)mood {
+    NSLog(@"Setting Mood: %@", mood);
+    /*
     NSString *script = [NSString stringWithFormat:@"tell application \"Skype\" \n" 
                         "send command \"SET PROFILE MOOD_TEXT %@\" script name \"Moody\" \n"
                         "end tell", mood];
     [self executeApplescript:script];
+     */
 }
 
 - (NSString *)getSkypeMood {
@@ -38,6 +57,6 @@
 }
 
 - (NSString *)getSpotifySong {
-    return [self executeApplescriptfile:@"spotify_currentsong"];
+    return [self executeApplescriptfile:@"spotify_currentsong"];        
 }
 @end

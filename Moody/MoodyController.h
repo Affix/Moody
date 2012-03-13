@@ -11,9 +11,10 @@
 
 - (void)setPollingInterval:(int)interval;
 - (NSString*)executeApplescriptfile:(NSString *)scriptName;
-- (void)executeApplescript:(NSString *)script;
+- (NSString *)executeApplescript:(NSString *)script;
 - (void)setSkypeMood:(NSString *)mood;
 - (NSString *)getSkypeMood;
 - (NSString *)getSpotifySong;
+- (bool)isRunning:(NSString *)appname;
 
 @end

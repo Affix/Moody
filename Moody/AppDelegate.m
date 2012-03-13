@@ -43,7 +43,7 @@
 
 - (void)onTick:(NSTimer *)timer {
     // Set the current Spotify song as skype mood
-    if ([moody isRunning:@"Spotify"])
+    if ([moody isRunning:@"Spotify"] && [moody isRunning:@"Skype"])
     {
         NSString *spotify_current = [moody getSpotifySong];
         
@@ -69,7 +69,9 @@
 }
                       
 - (IBAction)onQuit:(id)sender {
-    [moody setSkypeMood:oldSkypeStatus];
+    if ([moody isRunning:@"Skype"]) {
+        [moody setSkypeMood:oldSkypeStatus];
+    }
     exit(0);
 }
 

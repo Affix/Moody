@@ -9,10 +9,6 @@
 
 @implementation MoodyController
 
-- (void)setPollingInterval:(int)interval {
-    NSLog(@"INterval: %i", interval);
-}
-
 /*
  * Executes the specific applescript file
  */
@@ -43,13 +39,10 @@
 }
 
 - (void)setSkypeMood:(NSString *)mood {
-    NSLog(@"Setting Mood: %@", mood);
-    /*
     NSString *script = [NSString stringWithFormat:@"tell application \"Skype\" \n" 
                         "send command \"SET PROFILE MOOD_TEXT %@\" script name \"Moody\" \n"
                         "end tell", mood];
     [self executeApplescript:script];
-     */
 }
 
 - (NSString *)getSkypeMood {

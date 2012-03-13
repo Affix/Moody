@@ -13,14 +13,11 @@
     MoodyController *moody;
 }
 - (IBAction)onQuit:(id)sender;
-- (IBAction)prefAction:(id)sender;
-- (IBAction)hideAction:(id)sender;
 
-@property (assign) IBOutlet NSMenu *menu;
 @property (retain) NSString *oldSkypeStatus;
 @property (retain) NSString *currentSong;
+
+@property (assign) IBOutlet NSMenu *menu;
 @property (weak) IBOutlet NSMenuItem *currentsongItem;
-@property (weak) IBOutlet NSMenuItem *pollingItem;
-@property (unsafe_unretained) IBOutlet NSWindow *prefWindow;
 
 @end

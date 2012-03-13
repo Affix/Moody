@@ -13,8 +13,6 @@
 @synthesize oldSkypeStatus;
 @synthesize currentSong;
 @synthesize currentsongItem;
-@synthesize pollingItem;
-@synthesize prefWindow;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {    
@@ -59,7 +57,7 @@
                 currentSong = spotify_current;   
             }
         }
-    }
+    } 
     
     // Skype mood not set yet? Try again.
     if (oldSkypeStatus == nil) {
@@ -75,12 +73,4 @@
     exit(0);
 }
 
-- (IBAction)prefAction:(id)sender {
-    [prefWindow makeKeyAndOrderFront:self];
-    [NSApp activateIgnoringOtherApps:YES];
-}
-
-- (IBAction)hideAction:(id)sender {
-    [prefWindow orderOut:self]; 
-}
 @end

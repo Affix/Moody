@@ -9,7 +9,6 @@
 
 @interface MoodyController : NSObject
 
-- (void)setPollingInterval:(int)interval;
 - (NSString*)executeApplescriptfile:(NSString *)scriptName;
 - (NSString *)executeApplescript:(NSString *)script;
 - (void)setSkypeMood:(NSString *)mood;
